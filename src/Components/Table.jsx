@@ -19,7 +19,7 @@ const Table = () => {
                     return <tr className="border-b" key={data.id+i}>
                         <td className="pr-20 py-3 font-normal text-xs">{data.id}</td>
                         <td className="pr-20 py-3 font-normal text-xs">
-                            <span className={`${}`}></span>
+                            <span className={``}></span>
                             <span>{data.status}</span>
                         </td>
                         <td className="pr-20 py-3 font-normal text-xs">{data.transactionId}</td>
