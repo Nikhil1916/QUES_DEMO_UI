@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.check {
+    color: rgb(20,110,180,var(--tw-bg-opacity));
+}
