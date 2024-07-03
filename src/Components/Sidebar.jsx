@@ -1,7 +1,7 @@
 import { items } from "../Utilities/Constants";
 const Sidebar = () => {
   return (
-    <div className="cursor-pointer w-[224px] h-screen overflow-x-auto bg-customSidebarBlue transition-transform transform duration-500 ease-in-out hidden sm:block">
+    <div className="fixed cursor-pointer w-[224px] h-screen overflow-x-auto bg-customSidebarBlue transition-transform transform duration-500 ease-in-out hidden sm:block">
       <div className="text-white p-2 m-2 ml-4 flex gap-2">
         <div>
           <img src="src/assets/avatar--MnDm4gU.png" width={"50px"} />

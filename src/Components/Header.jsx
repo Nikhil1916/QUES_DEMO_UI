@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <div className="shadow-bottom-md h-14 flex justify-between">
+    <div className="shadow-bottom-md h-14 flex justify-between fixed z-10 bg-white w-full sm:w-[calc(100vw_-_224px)]">
       <div className="flex items-center gap-2">
         <span className="text-xl ml-6 font-medium">Payouts</span>
         <span className="flex items-center  text-gray-400 text-xs gap-1">
@@ -29,7 +29,7 @@ const Header = () => {
         />
       </div>
       <div className="flex items-center">
-      <div className="flex items-center gap-2 mr-2">
+      <div className="flex items-center gap-2 mr-6">
         <div className="bg-gray-100 rounded-full p-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
